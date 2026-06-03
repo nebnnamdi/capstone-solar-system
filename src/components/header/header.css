@@ -1,3 +1,106 @@
-.header-bg {
-  background-color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  min-height: 100vh;
+  background: #021752;
+  color: white;
+  padding: 2rem 5rem;
+}
+
+.navbar {
+  margin-bottom: 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo span {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-weight: 600;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+.text-content h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.text-content p {
+  color: #c7d1e0;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid #4b5563;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-content img {
+  width: 450px;
+  max-width: 100%;
+  filter: drop-shadow(0 0 30px rgba(59, 130, 246, 0.6));
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .text-content h1 {
+    font-size: clamp(2.5rem, 5vw, 3rem);
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .image-content img {
+    width: 300px;
+  }
 }
