@@ -52,6 +52,35 @@
   color: #0077cc;
   font-weight: 600;
 }
+.about-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px; /* optional */
+  display: block;
+}
+.about-image {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  display: block;
+}
+
+.overlay-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
 
 /* Responsive */
 @media (max-width: 900px) {

@@ -10,7 +10,16 @@ const About = () => {
             src="/about-video.jpg"
             alt="Planetary Data"
           />
-         
+       <video
+    className="overlay-video"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="/planet-video.mp4" type="video/mp4" />
+  </video>
+        
         </figure>
 
         <div className="about-content">
