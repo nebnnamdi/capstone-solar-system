@@ -2,38 +2,46 @@ import "./facts.css";
 
 function Facts() {
   return (
-    <div className="facts-bg">
-      <section class="table" id="table">
+    <section class="table" id="table">
       <h2 class="facts-planet">Planetary Facts at a Glance</h2>
       <p>
-        Below is a comparative table of major p lanets in our solar system.The
-        data highlight key physical 
+        Below is a comparative table of major planets in our solar system.The
+        data highlight key physical
       </p>
-      <p>
-        property used by astronomers and researchers worldwide.
-      </p>
+      <p>properties used by astronomers and researchers worldwide.</p>
       <br />
       <br />
-      <caption>
-        <b>
-        Data about the planets of our solar system (Planetary facts taken from
-        NASA)
-      </b>
-      </caption>
+
       <table>
+        <caption>
+          Data about the planets of our solar system (Planetary facts taken from
+          NASA)
+        </caption>
         <thead>
           <tr class="thead">
             <th scope="col" colspan="2" class="head"></th>
-            <th scope="col" class="head">Name</th>
-            <th scope="col" class="head">Mass (10 24kg)</th>
-            <th scope="col" class="head">Diameter (km)</th>
-            <th scope="col" class="head">Density (kg/m3)</th>
-            <th scope="col" class="head">Gravity (m/s2)</th>
+            <th scope="col" class="head">
+              Name
+            </th>
+            <th scope="col" class="head">
+              Mass (10 24kg)
+            </th>
+            <th scope="col" class="head">
+              Diameter (km)
+            </th>
+            <th scope="col" class="head">
+              Density (kg/m3)
+            </th>
+            <th scope="col" class="head">
+              Gravity (m/s2)
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" colspan="2" rowspan="4">Terrestial Planets</th>
+            <th scope="row" colspan="2" rowspan="4">
+              Terrestial Planets
+            </th>
             <td>Mercury</td>
             <td>0.330</td>
             <td>4,878</td>
@@ -62,7 +70,9 @@ function Facts() {
             <td>3.7</td>
           </tr>
           <tr>
-            <th scope="row" rowspan="4">Jovian Planets</th>
+            <th scope="row" rowspan="4">
+              Jovian Planets
+            </th>
             <th rowspan="2">Gas Giants</th>
             <td>Jupiter</td>
             <td>0.330</td>
@@ -78,7 +88,9 @@ function Facts() {
             <td>3.7</td>
           </tr>
           <tr>
-            <th scope="row" rowspan="2">Ice Giants</th>
+            <th scope="row" rowspan="2">
+              Ice Giants
+            </th>
             <td>Uranus</td>
             <td>0.330</td>
             <td>4,878</td>
@@ -93,7 +105,9 @@ function Facts() {
             <td>3.7</td>
           </tr>
           <tr>
-            <th scope="row" colspan="2" class="facts-dwarf">Dwarf Planets</th>
+            <th scope="row" colspan="2" class="facts-dwarf">
+              Dwarf Planets
+            </th>
             <td>Pluto</td>
             <td>0.330</td>
             <td>4,878</td>
@@ -103,8 +117,6 @@ function Facts() {
         </tbody>
       </table>
     </section>
-    <hr />
-    </div>
   );
 }
 

@@ -2,7 +2,7 @@ table {
   width: 1233px;
   height: 763.37px;
   border-spacing: 2px;
-  padding-top:24px;
+  padding-top: 24px;
   align-content: center;
 }
 .table {
@@ -12,7 +12,22 @@ table {
   padding-left: 120px;
   letter-spacing: -2%;
   box-sizing: border-box;
-  display:inline-block;
+  display: inline-block;
+}
+
+th,
+td {
+  border: 2px solid #ffffff;
+  color: #212121;
+  font-size: 16px;
+}
+
+caption {
+  text-align: left;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #0f2a44;
+  font-size: 18px;
 }
 
 th {
@@ -27,7 +42,7 @@ td {
 }
 .head {
   background-color: #164baf;
-  color:white;
+  color: white;
   font-weight: 700;
 }
 thead th:first-child {
@@ -47,8 +62,9 @@ tbody tr:last-child td:last-child {
   font-weight: 600;
   color: #164baf;
   font-style: semibold;
-  line-height: 150%;
-  letter-spacing: -2%;
+  /* line-height: 150%; */
+  /* letter-spacing: -2%; */
+  margin-bottom: 18px;
 }
 .facts-dwarf {
   border-radius: 0 0 0 16px;
