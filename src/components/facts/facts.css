@@ -1,3 +1,61 @@
-.facts-bg {
-  background-color: chartreuse;
+table {
+  width: 1233px;
+  height: 763.37px;
+  border-spacing: 2px;
+  padding-top:24px;
+  align-content: center;
+}
+.table {
+  padding-top: 80px;
+  padding-right: 120px;
+  padding-bottom: 80.36px;
+  padding-left: 120px;
+  letter-spacing: -2%;
+  box-sizing: border-box;
+  display:inline-block;
+}
+
+th {
+  background-color: #d1e3ff;
+  padding: 12px 16px;
+  font-weight: 700;
+}
+td {
+  padding: 16.83px 60.49px 19.8px 60.49px;
+  background-color: #f2f7ff;
+  font-weight: 500;
+}
+.head {
+  background-color: #164baf;
+  color:white;
+  font-weight: 700;
+}
+thead th:first-child {
+  border-radius: 16px 0 0 0;
+}
+thead th:last-child {
+  border-radius: 0 16px 0 0;
+}
+tbody tr:first-child th:last-child {
+  border-radius: 0 0 0 16px;
+}
+tbody tr:last-child td:last-child {
+  border-radius: 0 0 16px 0;
+}
+
+.facts-planet {
+  font-weight: 600;
+  color: #164baf;
+  font-style: semibold;
+  line-height: 150%;
+  letter-spacing: -2%;
+}
+.facts-dwarf {
+  border-radius: 0 0 0 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .table {
+    display: none;
+  }
 }
