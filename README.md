@@ -31,17 +31,20 @@ https://your-live-link.com
 
 # 👥 Team Members
 
-| Name                        | GitHub                                             |
-| --------------------------- | -------------------------------------------------- | --------------------------- |
-| Chinweike Amorha            | [@dozman-droid](https://github.com/dozman-droid)   | nnadoziechinweike@gmail.com |
-| Nebeolisa Nnamdi            | [@nebnnamdi](https://github.com/nebnnamdi)         |
-| Etta James                  | [@EttaJames](https://github.com/EttaJames)         | etimetta@yahoo.com          |
-| Abale Mano                  | [@manoabale](https://github.com/manoabale)         | manoabale485@gmail.com      |
-| Boluwaji Francis Omole      | [@manoabale](https://github.com/Bolutino1)         | Boluwajiomole@gmail.com     |
-| Ezedike Fortune Chiamaka    | [@???](https://github.com/???)                     | fortuneezedike@gmail.com    |
-| Agnes Alice abang           | [@???](https://github.com/???)                     | abangalice713@gmail.com     |
-| Abayomi Morenikeji Faustina | [@hellokeji](https://github.com/hellokeji)         | amorenikeji26@gmail.com     |
-| Ramadan Musa Opeyemi        | [@Ramadanmusa32](https://github.com/Ramadanmusa32) | musaramadan32@gmail.com     |
+| Name                        | GitHub                                                                         |
+| --------------------------- | ------------------------------------------------------------------------------ | ----------------------------- |
+| Chinweike Amorha            | [@dozman-droid](https://github.com/dozman-droid)                               | nnadoziechinweike@gmail.com   |
+| Nebeolisa Nnamdi            | [@nebnnamdi](https://github.com/nebnnamdi)                                     | nebnnamdi@gmail.com           |
+| Etta James                  | [@EttaJames](https://github.com/EttaJames)                                     | etimetta@yahoo.com            |
+| Abale Mano                  | [@manoabale](https://github.com/manoabale)                                     | manoabale485@gmail.com        |
+| Boluwaji Francis Omole      | [@manoabale](https://github.com/Bolutino1)                                     | Boluwajiomole@gmail.com       |
+| Ezedike Fortune Chiamaka    | [@OfficialFortune](https://github.com/OfficialFortune)                         | fortuneezedike@gmail.com      |
+| Agnes Alice abang           | [@Alice202222](https://github.com/Alice202222)                                 | abangalice713@gmail.com       |
+| Abayomi Morenikeji Faustina | [@hellokeji](https://github.com/hellokeji)                                     | amorenikeji26@gmail.com       |
+| Ramadan Musa Opeyemi        | [@Ramadanmusa32](https://github.com/Ramadanmusa32)                             | Olajumocaremi@gmail.com       |
+| Jumoke Olagoke              | [@Olajumocare](https://github.com/Olajumocare)                                 | musaramadan32@gmail.com       |
+| Olaniyan Bamidele           | [@bamideleolaniyan484-netizen](https://github.com/bamideleolaniyan484-netizen) | bamideleolaniyan484@gmail.com |
+| Fadebi Omobolaji Temiloluwa | [@Kayshhkey](https://github.com/Kayshhkey)                                     | temi.bolaji2022@gmail.com     |
 
 ---
 
@@ -60,7 +63,7 @@ Follow these steps to run the project locally.
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/nebnnamdi/capstone-solar-system.git
 ```
 
 ## 2️⃣ Navigate Into the Project Directory
@@ -97,11 +100,7 @@ npm start
 http://localhost:5173
 ```
 
-OR
-
-```bash
-http://localhost:3000
-```
+````
 
 ---
 
@@ -121,7 +120,7 @@ src/
 └── App.jsx
 └── index.css
 └── main.jsx
-```
+````
 
 ---
 
@@ -129,9 +128,8 @@ src/
 
 - ⚛️ React.js
 - ⚡ Vite
-- 🎨 CSS / Tailwind CSS / Bootstrap
+- 🎨 CSS
 - 📜 JavaScript
-- 🔗 React Router
 - 🌐 REST API
 
 ---
@@ -158,15 +156,6 @@ src/
 - Pull Requests for feature integration
 - Branch-based development
 - Code reviews before merge
-
----
-
-# 📌 Future Improvements
-
-- 🔹 Add authentication
-- 🔹 Improve accessibility
-- 🔹 Add dark mode
-- 🔹 Optimize performance
 
 ---
 
