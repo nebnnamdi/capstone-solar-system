@@ -10,7 +10,7 @@
 
 ## 📖 Project Overview
 
-A modern React application built by Group X as part of a collaborative project.
+A modern React application built by Group 12 Phoenix Cohort as part of a collaborative capstone project on Solar System.
 
 The application helps users to:
 
