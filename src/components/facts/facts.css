@@ -1,3 +1,43 @@
 .facts-bg {
   background-color: chartreuse;
 }
+table { 
+    padding: 16px ;
+    width: 1233px;
+    height:763.37px;
+    border-spacing: 2px;
+    text-align: center;
+}
+th {
+    background-color:#D1E3FF;
+    color: white;
+    padding: 12px 16px;
+}
+td{
+    padding: 16px;
+    border: 2px ;
+   background-color: #F2F7FF;
+
+}
+.head {
+    background-color:#164BAF;
+}
+thead th:first-child {
+    border-radius: 16px 0 0 0;
+}
+    thead th:last-child{
+    border-radius: 0 16px 0 0;
+}
+    tbody tr:first-child th:last-child {
+    border-radius: 0 0 0 16px;
+}   
+    tbody tr:last-child td:last-child {
+    border-radius: 0 0 16px 0;
+}
+
+.facts-planet {
+    font-weight: 600;
+    color: #164BAF;
+    font-style: semibold;
+    line-height: 150%;
+}
