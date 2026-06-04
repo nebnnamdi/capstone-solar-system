@@ -1,6 +1,6 @@
 import "./facts.css";
 
-export default function facts() {
+export default function Facts() {
   return (
     <section className="facts">
       <div className="facts-container">

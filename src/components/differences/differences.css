@@ -69,7 +69,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .planet-grid {
     grid-template-columns: 1fr;
