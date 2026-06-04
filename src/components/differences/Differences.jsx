@@ -1,6 +1,6 @@
 import "./differences.css";
 
-function differences() {
+function Differences() {
   return (
     <div className="differences-bg">
       <h1>Differences</h1>
@@ -8,4 +8,4 @@ function differences() {
   );
 }
 
-export default differences;
+export default Differences;
