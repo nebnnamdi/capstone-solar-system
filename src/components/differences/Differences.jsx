@@ -1,4 +1,4 @@
-import "./Differences.css";
+import "./differences.css";
 
 const planets = [
   {
