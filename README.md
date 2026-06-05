@@ -12,7 +12,7 @@
 
 A modern React application built by Group 12 Phoenix Cohort as part of a collaborative capstone project on Solar System.
 
-The application helps users to:
+The application helps the user to:
 
 - ✅ Explore the solar system through data
 - ✅ Visualize the differences between planets using data received from [provided api](https://anurella.github.io/json/planets.json)
@@ -26,7 +26,7 @@ The application helps users to:
 # 🌍 Live Demo
 
 🔗 **Live Site:**  
-https://your-live-link.com
+https://capstone-solar-system.netlify.app/
 
 ---
 
