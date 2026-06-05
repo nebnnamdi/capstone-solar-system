@@ -1,6 +1,6 @@
 import "./facts.css";
 
-function Facts() {
+export default function Facts() {
   return (
     <section class="table" id="table">
       <h2 class="facts-planet">Planetary Facts at a Glance</h2>
@@ -119,5 +119,3 @@ function Facts() {
     </section>
   );
 }
-
-export default Facts;
