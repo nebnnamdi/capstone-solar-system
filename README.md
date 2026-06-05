@@ -14,9 +14,10 @@ A modern React application built by Group 12 Phoenix Cohort as part of a collabo
 
 The application helps users to:
 
-- ✅ Feature One
-- ✅ Feature Two
-- ✅ Feature Three
+- ✅ Explore the solar system through data
+- ✅ Visualize the differences between planets using data received from [provided api](https://anurella.github.io/json/planets.json)
+- ✅ Explore planetary facts at a glance
+- ✅ Submit questions about planetary science via provided [endpoint](https://whitebricks.com/tsacademy.php)
 - ✅ Responsive User Interface
 - ✅ API Integration (if applicable)
 
@@ -39,7 +40,7 @@ https://your-live-link.com
 | Abale Mano                  | [@manoabale](https://github.com/manoabale)                                     | manoabale485@gmail.com        |
 | Boluwaji Francis Omole      | [@manoabale](https://github.com/Bolutino1)                                     | Boluwajiomole@gmail.com       |
 | Ezedike Fortune Chiamaka    | [@OfficialFortune](https://github.com/OfficialFortune)                         | fortuneezedike@gmail.com      |
-| Agnes Alice abang           | [@Alice202222](https://github.com/Alice202222)                                 | abangalice713@gmail.com       |
+| Agnes Alice Abang           | [@Alice202222](https://github.com/Alice202222)                                 | abangalice713@gmail.com       |
 | Abayomi Morenikeji Faustina | [@hellokeji](https://github.com/hellokeji)                                     | amorenikeji26@gmail.com       |
 | Ramadan Musa Opeyemi        | [@Ramadanmusa32](https://github.com/Ramadanmusa32)                             | Olajumocaremi@gmail.com       |
 | Jumoke Olagoke              | [@Olajumocare](https://github.com/Olajumocare)                                 | musaramadan32@gmail.com       |
@@ -50,9 +51,14 @@ https://your-live-link.com
 
 # 🛠 Contributions
 
-| Component / Feature | Description            | Contributor(s) |
-| ------------------- | ---------------------- | -------------- |
-| Navbar              | Navigation and routing | Member         |
+| Component / Feature | Contributor(s)                                                           |
+| ------------------- | ------------------------------------------------------------------------ |
+| Header              | Chinweike Amorha                                                         |
+| About               | Chinweike Amorha, Boluwaji Francis Omole & Etta James                    |
+| Differences         | Chinweike Amorha, Fadebi Omobolaji Temiloluwa & Abale Mano               |
+| Facts               | Ramadan Musa Opeyemi, Nebeolisa Nnamdi & Agnes Alice Abang               |
+| Contact us          | Ezedike Fortune Chiamaka, Abayomi Morenikeji Faustina & Chinweike Amorha |
+| Footer              | Nebeolisa Nnamdi, Jumoke Olagoke & Olaniyan Bamidele                     |
 
 ---
 
@@ -131,22 +137,6 @@ src/
 - 🎨 CSS
 - 📜 JavaScript
 - 🌐 REST API
-
----
-
-# 📸 Screenshots
-
-## Homepage
-
-```markdown
-![Homepage Screenshot](./src/assets/homepage.png)
-```
-
-## Dashboard
-
-```markdown
-![Dashboard Screenshot](./src/assets/dashboard.png)
-```
 
 ---
 

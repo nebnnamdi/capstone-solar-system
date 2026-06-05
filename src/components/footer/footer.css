@@ -1,7 +1,7 @@
 .footer {
   background: #02164d;
   color: #fff;
-  padding: 80px 20px 50px;
+  padding: 80px 120px;
 }
 
 .footer-container {
@@ -10,21 +10,21 @@
 }
 
 .footer-top h2 {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 1rem;
 }
 
 .footer-top p {
-  font-size: 1.4rem;
-  margin-bottom: 80px;
+  font-size: 16px;
+  /* margin-bottom: 80px; */
 }
 
 .footer hr {
   border: none;
   height: 1px;
   background: rgba(255, 255, 255, 0.4);
-  margin-bottom: 40px;
+  margin-bottom: 21px;
 }
 
 .footer-bottom {
@@ -35,18 +35,32 @@
 }
 
 .footer-left p {
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.8;
   margin: 0;
 }
 
 .footer-right h3 {
-  font-size: 2rem;
+  font-size: 16px;
   font-weight: 700;
   margin: 0;
 }
 
+ul {
+  margin: 20px 0 45px 0;
+  display: flex;
+  gap: 40px;
+}
+
+li {
+  list-style: square;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 @media (max-width: 768px) {
   .footer {
