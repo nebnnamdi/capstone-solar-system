@@ -9,7 +9,6 @@ const Contact = () => {
     message: "",
   });
 
-  const [success, setSuccess] = useState("");
   const [error, setError] = useState("");
 
   const handleChange = (e) => {
@@ -20,37 +19,43 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    setError("");
 
-    // Email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (!emailRegex.test(formData.email)) {
-      setError("Please enter a valid email address.");
-      setSuccess("");
+   
+    if (
+      !formData.fullName.trim() ||
+      !formData.email.trim() ||
+      !formData.phone.trim() ||
+      !formData.message.trim()
+    ) {
+      e.preventDefault();
+      setError("Please fill in all required fields.");
       return;
     }
 
-    setError("");
-    setSuccess("Form submitted successfully!");
+  
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    console.log(formData);
+    if (!emailRegex.test(formData.email)) {
+      e.preventDefault();
+      setError("Please enter a valid email address.");
+      return;
+    }
 
-    // Clear form
-    setFormData({
-      fullName: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
+    
   };
 
   return (
-   <section id="contact-us" className="contact">
+    <section id="contact-us" className="contact">
       <div className="contact-container">
         <h2>Have Questions About Planetary Science?</h2>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form
+          className="contact-form"
+          action="https://whitebricks.com/tsacademy.php"
+          method="POST"
+          onSubmit={handleSubmit}
+        >
           <div className="form-group">
             <label>Full Name*</label>
             <input
@@ -100,7 +105,6 @@ const Contact = () => {
         </form>
 
         {error && <p className="error-msg">{error}</p>}
-        {success && <p className="success-msg">{success}</p>}
       </div>
     </section>
   );
