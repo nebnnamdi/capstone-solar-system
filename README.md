@@ -26,7 +26,7 @@ The application helps users to:
 # 🌍 Live Demo
 
 🔗 **Live Site:**  
-https://your-live-link.com
+https://capstone-solar-system.netlify.app/
 
 ---
 
