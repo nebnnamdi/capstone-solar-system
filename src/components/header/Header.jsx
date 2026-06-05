@@ -2,7 +2,7 @@ import "./header.css";
 
 export default function Header() {
     const goToFacts = () => {
-    document.getElementById("facts")?.scrollIntoView({
+    document.getElementById("table")?.scrollIntoView({
       behavior: "smooth",
     });
   };
