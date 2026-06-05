@@ -2,134 +2,120 @@ import "./facts.css";
 
 export default function Facts() {
   return (
-   <section id="facts" className="facts">
-      <div className="facts-container">
-        <h2>Planetary Facts at a Glance</h2>
+    <section class="table" id="table">
+      <h2 class="facts-planet">Planetary Facts at a Glance</h2>
+      <p>
+        Below is a comparative table of major planets in our solar system.The
+        data highlight key physical
+      </p>
+      <p>properties used by astronomers and researchers worldwide.</p>
+      <br />
+      <br />
 
-        <p className="intro">
-          Below is a comparative table of major planets in our solar system.
-          The data highlights key physical properties used by astronomers and
-          researchers worldwide.
-        </p>
-
-        <p className="caption">
-          Data about the planets of our solar system
-          <span> (Planetary facts taken from NASA)</span>
-        </p>
-
-        <div className="table-wrapper">
-          <table className="planet-table">
-            <thead>
-              <tr>
-                <th colSpan="2"></th>
-                <th>Name</th>
-                <th>Mass (10 24kg)</th>
-                <th>Diameter (km)</th>
-                <th>Density (kg/m3)</th>
-                <th>Gravity (m/s2)</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              {/* Terrestrial */}
-              <tr>
-                <td className="category" colSpan="2" rowSpan="4">
-                  Terrestrial Planets
-                </td>
-                <td>Mercury</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td>Venus</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td>Earth</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td>Mars</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              {/* Jovian */}
-              <tr>
-                <td className="category" rowSpan="4">
-                  Jovian
-                  <br />
-                  Planets
-                </td>
-
-                <td className="subcategory" rowSpan="2">
-                  Gas Giants
-                </td>
-
-                <td>Jupiter</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td>Saturn</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td className="subcategory" rowSpan="2">
-                  Ice Giants
-                </td>
-
-                <td>Uranus</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              <tr>
-                <td>Neptune</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-
-              {/* Dwarf */}
-              <tr>
-                <td className="category" colSpan="2">
-                  Dwarf Planets
-                </td>
-
-                <td>Pluto</td>
-                <td>0.330</td>
-                <td>4,878</td>
-                <td>5427</td>
-                <td>3.7</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+      <table>
+        <caption>
+          Data about the planets of our solar system (Planetary facts taken from
+          NASA)
+        </caption>
+        <thead>
+          <tr class="thead">
+            <th scope="col" colspan="2" class="head"></th>
+            <th scope="col" class="head">
+              Name
+            </th>
+            <th scope="col" class="head">
+              Mass (10 24kg)
+            </th>
+            <th scope="col" class="head">
+              Diameter (km)
+            </th>
+            <th scope="col" class="head">
+              Density (kg/m3)
+            </th>
+            <th scope="col" class="head">
+              Gravity (m/s2)
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" colspan="2" rowspan="4">
+              Terrestial Planets
+            </th>
+            <td>Mercury</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Venus</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Earth</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Mars</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="4">
+              Jovian Planets
+            </th>
+            <th rowspan="2">Gas Giants</th>
+            <td>Jupiter</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Saturn</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <th scope="row" rowspan="2">
+              Ice Giants
+            </th>
+            <td>Uranus</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Neptune</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+          <tr>
+            <th scope="row" colspan="2" class="facts-dwarf">
+              Dwarf Planets
+            </th>
+            <td>Pluto</td>
+            <td>0.330</td>
+            <td>4,878</td>
+            <td>5427</td>
+            <td>3.7</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   );
 }
