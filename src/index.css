@@ -124,3 +124,7 @@ padding is optional but i do this because of lists*/
 ) {
   touch-action: manipulation;
 }
+
+html {
+  scroll-behavior: smooth;
+}

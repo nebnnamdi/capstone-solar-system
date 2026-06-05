@@ -1,6 +1,17 @@
 import "./header.css";
 
 export default function Header() {
+    const goToFacts = () => {
+    document.getElementById("facts")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const goToContact = () => {
+    document.getElementById("contact-us")?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <header className="hero">
       <nav className="navbar">
@@ -25,8 +36,8 @@ export default function Header() {
           </p>
 
           <div className="buttons">
-            <button className="primary-btn">Explore the Data</button>
-            <button className="secondary-btn">Contact Us</button>
+            <button className="primary-btn" onClick={goToFacts}>Explore the Data</button>
+            <button className="secondary-btn" onClick={goToContact}>Contact Us</button>
           </div>
         </div>
 

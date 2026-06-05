@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact">
+   <section id="contact-us" className="contact">
       <div className="contact-container">
         <h2>Have Questions About Planetary Science?</h2>
 

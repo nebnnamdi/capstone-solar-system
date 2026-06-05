@@ -2,7 +2,7 @@ import "./facts.css";
 
 export default function Facts() {
   return (
-    <section className="facts">
+   <section id="facts" className="facts">
       <div className="facts-container">
         <h2>Planetary Facts at a Glance</h2>
 
