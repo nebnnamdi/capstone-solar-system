@@ -70,7 +70,22 @@ tbody tr:last-child td:last-child {
   border-radius: 0 0 0 16px;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 992px) {
+  .table {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .table {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .table {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
   .table {
     display: none;
   }
